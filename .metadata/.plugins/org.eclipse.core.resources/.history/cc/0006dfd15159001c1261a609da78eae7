@@ -1,0 +1,185 @@
+package com.nutriapp.admin.food;
+
+import java.math.BigDecimal;
+
+public class Nutrients {
+	
+	private String nutrientId;
+	private String nutrientName;
+	private String nutrientNumber;
+	private String unitName;
+	private String derivationCode;
+	private String derivationDescription;
+	private String derivationId;
+	private BigDecimal value;
+	private long foodNutrientSourceId;
+	private String foodNutrientSourceCode;
+	private String foodNutrientSourceDescription;
+	private long rank;
+	private long indentLevel;
+	private String foodNutrientId;
+	private long dataPoints;
+	
+	
+	public Nutrients() {
+		super();
+	}
+
+
+	public String getNutrientId() {
+		return nutrientId;
+	}
+
+
+	public void setNutrientId(String nutrientId) {
+		this.nutrientId = nutrientId;
+	}
+
+
+	public String getNutrientName() {
+		return nutrientName;
+	}
+
+
+	public void setNutrientName(String nutrientName) {
+		this.nutrientName = nutrientName;
+	}
+
+
+	public String getNutrientNumber() {
+		return nutrientNumber;
+	}
+
+
+	public void setNutrientNumber(String nutrientNumber) {
+		this.nutrientNumber = nutrientNumber;
+	}
+
+
+	public String getUnitName() {
+		return unitName;
+	}
+
+
+	public void setUnitName(String unitName) {
+		this.unitName = unitName;
+	}
+
+
+	public String getDerivationCode() {
+		return derivationCode;
+	}
+
+
+	public void setDerivationCode(String derivationCode) {
+		this.derivationCode = derivationCode;
+	}
+
+
+	public String getDerivationDescription() {
+		return derivationDescription;
+	}
+
+
+	public void setDerivationDescription(String derivationDescription) {
+		this.derivationDescription = derivationDescription;
+	}
+
+
+	public String getDerivationId() {
+		return derivationId;
+	}
+
+
+	public void setDerivationId(String derivationId) {
+		this.derivationId = derivationId;
+	}
+
+
+	public BigDecimal getValue() {
+		return value;
+	}
+
+
+	public void setValue(BigDecimal value) {
+		this.value = value;
+	}
+
+
+	public long getFoodNutrientSourceId() {
+		return foodNutrientSourceId;
+	}
+
+
+	public void setFoodNutrientSourceId(long foodNutrientSourceId) {
+		this.foodNutrientSourceId = foodNutrientSourceId;
+	}
+
+
+	public String getFoodNutrientSourceCode() {
+		return foodNutrientSourceCode;
+	}
+
+
+	public void setFoodNutrientSourceCode(String foodNutrientSourceCode) {
+		this.foodNutrientSourceCode = foodNutrientSourceCode;
+	}
+
+
+	public String getFoodNutrientSourceDescription() {
+		return foodNutrientSourceDescription;
+	}
+
+
+	public void setFoodNutrientSourceDescription(String foodNutrientSourceDescription) {
+		this.foodNutrientSourceDescription = foodNutrientSourceDescription;
+	}
+
+
+	public long getRank() {
+		return rank;
+	}
+
+
+	public void setRank(long rank) {
+		this.rank = rank;
+	}
+
+
+	public long getIndentLevel() {
+		return indentLevel;
+	}
+
+
+	public void setIndentLevel(long indentLevel) {
+		this.indentLevel = indentLevel;
+	}
+
+
+	public String getFoodNutrientId() {
+		return foodNutrientId;
+	}
+
+
+	public void setFoodNutrientId(String foodNutrientId) {
+		this.foodNutrientId = foodNutrientId;
+	}
+
+
+	public long getDataPoints() {
+		return dataPoints;
+	}
+
+
+	public void setDataPoints(long dataPoints) {
+		this.dataPoints = dataPoints;
+	}
+
+
+
+	
+	
+	
+
+
+}

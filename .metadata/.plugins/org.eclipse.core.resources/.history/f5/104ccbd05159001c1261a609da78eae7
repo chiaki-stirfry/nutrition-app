@@ -1,0 +1,24 @@
+package com.nutriapp.admin.food;
+
+import java.math.BigDecimal;
+import java.util.Set;
+
+import lombok.Data;
+
+@Data
+public class Food {
+	
+	private long fdcId;
+	private String description;
+	private String lowercaseDescription;
+	private String commonNames;
+	private String additionalDescriptions;
+	private String dataType;
+	private String foodCategory;
+	private String allHighlightFields;
+	private BigDecimal score;
+	private Set<Nutrients> foodNutrients;
+	
+
+   
+}

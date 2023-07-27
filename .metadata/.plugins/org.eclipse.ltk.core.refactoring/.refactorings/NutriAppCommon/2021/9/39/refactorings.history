@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.nutriapp.common.entity.UserDATO&apos; to &apos;UserDTO&apos;&#x0D;&#x0A;- Original project: &apos;NutriAppCommon&apos;&#x0D;&#x0A;- Original element: &apos;com.nutriapp.common.entity.UserDATO&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nutriapp.common.entity.UserDTO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UserDATO&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nutriapp.common.entity{UserDATO.java[UserDATO" matchStrategy="1" name="UserDTO" qualified="false" references="true" similarDeclarations="false" stamp="1632529402384" textual="false" version="1.0"/>
+</session>

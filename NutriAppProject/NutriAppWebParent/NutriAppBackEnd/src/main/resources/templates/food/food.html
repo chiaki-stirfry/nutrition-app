@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments :: page_head('Foods - NutriApp Admin','none')" />
+<body>
+<div th:replace="navigation :: menu"></div>
+<div class="container-fluid">
+	
+	<div>
+		<h2>Manage Food</h2>	
+	</div>
+	<div th:if="${message != null}" class="alert alert-success text-center">
+		[[${message}]]
+	</div>
+	
+	<div class="food-table-container w-75">  
+         <div class=" input-group w-50 mb-3 mx-auto ">	     
+             <input type="text" class="form-control search-keyword"    placeholder="Search Food (ex. Apple)">
+   	         <div class="input-group-append">
+	      		<button class="btn btn-outline-secondary search-btn" type="button"><i class="fas fa-search"></i></button>
+	   		 </div>   
+ 
+   		</div>
+   		<div class ="block">  		
+			<table id="food-table" class ="display block">
+				<thead>
+					<tr>		
+						<th>Description</th>
+						<th>Amount</th>
+						<th>Measure</th>
+						<th>Weight</th>
+						<th>Select</th>
+					</tr>
+				<tbody>				
+				</tbody>
+			</table>
+		</div>
+	</div>
+	
+	
+	
+	<div th:replace="fragments :: footer"></div>
+	
+</div>l
+
+<script type="text/javascript" >
+
+    moduleURL = "[[@{/}]]";
+    
+</script>
+<script th:src="@{/js/food_table.js}"></script>
+
+</body>
+</html>

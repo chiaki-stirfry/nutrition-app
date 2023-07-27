@@ -1,0 +1,108 @@
+package com.nutriapp.admin.food;
+
+import java.math.BigDecimal;
+import java.util.Set;
+
+public class Food {
+	
+	private long fdcId;
+	private String description;
+	private String lowercaseDescription;
+	private String commonNames;
+	private String additionalDescriptions;
+	private String dataType;
+	private String foodCategory;
+	private String allHighlightFields;
+	private BigDecimal score;
+	private Set<Nutrients> foodNutrients;
+	
+	public Food() {
+		
+	}
+
+	public long getFdcId() {
+		return fdcId;
+	}
+
+	public void setFdcId(long fdcId) {
+		this.fdcId = fdcId;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getLowercaseDescription() {
+		return lowercaseDescription;
+	}
+
+	public void setLowercaseDescription(String lowercaseDescription) {
+		this.lowercaseDescription = lowercaseDescription;
+	}
+
+	public String getCommonNames() {
+		return commonNames;
+	}
+
+	public void setCommonNames(String commonNames) {
+		this.commonNames = commonNames;
+	}
+
+	public String getAdditionalDescriptions() {
+		return additionalDescriptions;
+	}
+
+	public void setAdditionalDescriptions(String additionalDescriptions) {
+		this.additionalDescriptions = additionalDescriptions;
+	}
+
+	public String getDataType() {
+		return dataType;
+	}
+
+	public void setDataType(String dataType) {
+		this.dataType = dataType;
+	}
+
+	public String getFoodCategory() {
+		return foodCategory;
+	}
+
+	public void setFoodCategory(String foodCategory) {
+		this.foodCategory = foodCategory;
+	}
+
+	public String getAllHighlightFields() {
+		return allHighlightFields;
+	}
+
+	public void setAllHighlightFields(String allHighlightFields) {
+		this.allHighlightFields = allHighlightFields;
+	}
+
+	public BigDecimal getScore() {
+		return score;
+	}
+
+	public void setScore(BigDecimal score) {
+		this.score = score;
+	}
+
+	public Set<Nutrients> getFoodNutrients() {
+		return foodNutrients;
+	}
+
+	public void setFoodNutrients(Set<Nutrients> foodNutrients) {
+		this.foodNutrients = foodNutrients;
+	}
+	
+	
+	
+	
+	
+   
+}

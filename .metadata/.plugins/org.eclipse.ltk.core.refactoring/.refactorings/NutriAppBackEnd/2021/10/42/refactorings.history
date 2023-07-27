@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;NutriAppBackEnd/src/main/resources/templates/fragments.hmtl&apos; to &apos;fragments.html&apos;" description="Rename resource &apos;fragments.hmtl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/fragments.hmtl" name="fragments.html" stamp="1633919628201" updateReferences="true"/>
+</session>

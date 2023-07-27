@@ -1,0 +1,13 @@
+      $('.search_field').keyup(function(){
+          var data = $('.search_field').val(); 
+          $.ajax({
+              url: "{% url 'sell' %}",
+              type: "GET",
+              cache: false,
+              data: data,
+              success: function(data){
+                $('#search-results').append(data);
+              }
+          });
+      });
+    });

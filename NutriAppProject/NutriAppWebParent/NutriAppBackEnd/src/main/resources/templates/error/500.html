@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head th:replace="fragments :: page_head('Error - NutriApp Admin', 'none')" />
+</head>
+<body>
+<div th:replace="navigation :: menu"></div>
+<div class="mt-5 d-flex flex-column align-items-center">	
+		<div><h2>Sorry, the server has encountered an error while processing your request</h2></div>
+		<div><p><a th:href="@{/}">BACK TO HOME</a></p></div>	
+</div>
+<div th:replace="fragments :: footer"></div>
+</body>
+</html>

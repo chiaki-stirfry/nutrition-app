@@ -1,0 +1,5 @@
+package com.nutriapp.admin.food;
+
+public class ResponseDTO {
+
+}
